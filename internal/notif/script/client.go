@@ -5,21 +5,18 @@ import (
 	"log"
 	"os/exec"
 
-	//	"fmt"
-	//	"net/http"
-
 	"github.com/crazy-max/diun/internal/model"
 	"github.com/crazy-max/diun/internal/notif/notifier"
 )
 
-// Client represents an active slack notification object
+// Client represents an active script notification object
 type Client struct {
 	*notifier.Notifier
 	cfg model.NotifScript
 	app model.App
 }
 
-// New creates a new slack notification instance
+// New creates a new script notification instance
 func New(config model.NotifScript, app model.App) notifier.Notifier {
 	return notifier.Notifier{
 		Handler: &Client{

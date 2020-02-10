@@ -18,6 +18,7 @@ type Notif struct {
 	Slack    NotifSlack    `yaml:"slack,omitempty"`
 	Telegram NotifTelegram `yaml:"telegram,omitempty"`
 	Webhook  NotifWebhook  `yaml:"webhook,omitempty"`
+	Script   NotifScript   `yaml:"script,omitempty"`
 }
 
 // NotifMail holds mail notification configuration details
@@ -55,4 +56,11 @@ type NotifWebhook struct {
 	Method   string            `yaml:"method,omitempty"`
 	Headers  map[string]string `yaml:"headers,omitempty"`
 	Timeout  int               `yaml:"timeout,omitempty"`
+}
+
+// NotifScript holds script notification configuration details
+type NotifScript struct {
+	Enable   bool   `yaml:"enable,omitempty"`
+	Endpoint string `yaml:"endpoint,omitempty"`
+	Timeout  int    `yaml:"timeout,omitempty"`
 }
