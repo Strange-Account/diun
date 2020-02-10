@@ -7,11 +7,11 @@ import (
 	"syscall"
 	"time"
 
+	"github.com/Strange-Account/diun/internal/app"
+	"github.com/Strange-Account/diun/internal/config"
+	"github.com/Strange-Account/diun/internal/logging"
+	"github.com/Strange-Account/diun/internal/model"
 	"github.com/alecthomas/kingpin"
-	"github.com/crazy-max/diun/internal/app"
-	"github.com/crazy-max/diun/internal/config"
-	"github.com/crazy-max/diun/internal/logging"
-	"github.com/crazy-max/diun/internal/model"
 	"github.com/rs/zerolog/log"
 )
 
