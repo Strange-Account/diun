@@ -1,7 +1,7 @@
 package notifier
 
 import (
-	"github.com/crazy-max/diun/internal/model"
+	"github.com/Strange-Account/diun/internal/model"
 )
 
 // Handler is a notifier interface

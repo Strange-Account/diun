@@ -7,9 +7,9 @@ import (
 	"text/template"
 	"time"
 
-	"github.com/crazy-max/diun/internal/model"
-	"github.com/crazy-max/diun/internal/notif/notifier"
-	"github.com/crazy-max/diun/pkg/utl"
+	"github.com/Strange-Account/diun/internal/model"
+	"github.com/Strange-Account/diun/internal/notif/notifier"
+	"github.com/Strange-Account/diun/pkg/utl"
 	"github.com/go-gomail/gomail"
 	"github.com/matcornic/hermes/v2"
 	"github.com/rs/zerolog/log"
@@ -43,8 +43,8 @@ func (c *Client) Send(entry model.NotifEntry) error {
 		Theme: new(Theme),
 		Product: hermes.Product{
 			Name: c.app.Name,
-			Link: "https://github.com/crazy-max/diun",
-			Logo: "https://raw.githubusercontent.com/crazy-max/diun/master/.res/diun.png",
+			Link: "https://github.com/Strange-Account/diun",
+			Logo: "https://raw.githubusercontent.com/Strange-Account/diun/master/.res/diun.png",
 			Copyright: fmt.Sprintf("%s © %d %s %s",
 				c.app.Author,
 				time.Now().Year(),
@@ -67,7 +67,7 @@ Docker 🐳 tag **{{ .Image.Domain }}/{{ .Image.Path }}:{{ .Image.Tag }}** which
 
 This image has been {{ if (eq .Status "new") }}created{{ else }}updated{{ end }} at <code>{{ .Manifest.Created.Format "Jan 02, 2006 15:04:05 UTC" }}</code> with digest <code>{{ .Manifest.Digest }}</code> for <code>{{ .Manifest.Os }}/{{ .Manifest.Architecture }}</code> platform.
 
-Need help, or have questions? Go to https://github.com/crazy-max/diun and leave an issue.
+Need help, or have questions? Go to https://github.com/Strange-Account/diun and leave an issue.
 
 `))
 	if err := emailTpl.Execute(&emailBuf, entry); err != nil {

@@ -2,12 +2,12 @@ package notif
 
 import (
 	"github.com/Strange-Account/diun/internal/notif/script"
-	"github.com/crazy-max/diun/internal/model"
-	"github.com/crazy-max/diun/internal/notif/mail"
-	"github.com/crazy-max/diun/internal/notif/notifier"
-	"github.com/crazy-max/diun/internal/notif/slack"
-	"github.com/crazy-max/diun/internal/notif/telegram"
-	"github.com/crazy-max/diun/internal/notif/webhook"
+	"github.com/Strange-Account/diun/internal/model"
+	"github.com/Strange-Account/diun/internal/notif/mail"
+	"github.com/Strange-Account/diun/internal/notif/notifier"
+	"github.com/Strange-Account/diun/internal/notif/slack"
+	"github.com/Strange-Account/diun/internal/notif/telegram"
+	"github.com/Strange-Account/diun/internal/notif/webhook"
 	"github.com/rs/zerolog/log"
 )
 

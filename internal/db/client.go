@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/crazy-max/diun/internal/model"
-	"github.com/crazy-max/diun/pkg/registry"
+	"github.com/Strange-Account/diun/internal/model"
+	"github.com/Strange-Account/diun/pkg/registry"
 	"github.com/rs/zerolog/log"
 	bolt "go.etcd.io/bbolt"
 )

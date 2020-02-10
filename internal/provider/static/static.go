@@ -3,8 +3,8 @@ package static
 import (
 	"fmt"
 
-	"github.com/crazy-max/diun/internal/model"
-	"github.com/crazy-max/diun/internal/provider"
+	"github.com/Strange-Account/diun/internal/model"
+	"github.com/Strange-Account/diun/internal/provider"
 	"github.com/rs/zerolog/log"
 )
 

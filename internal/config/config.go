@@ -9,8 +9,8 @@ import (
 	"os"
 	"path"
 
-	"github.com/crazy-max/diun/internal/model"
-	"github.com/crazy-max/diun/pkg/utl"
+	"github.com/Strange-Account/diun/internal/model"
+	"github.com/Strange-Account/diun/pkg/utl"
 	"github.com/imdario/mergo"
 	"github.com/rs/zerolog/log"
 	"gopkg.in/yaml.v2"
@@ -36,7 +36,7 @@ func Load(flags model.Flags, version string) (*Config, error) {
 			ID:      "diun",
 			Name:    "Diun",
 			Desc:    "Docker image update notifier",
-			URL:     "https://github.com/crazy-max/diun",
+			URL:     "https://github.com/Strange-Account/diun",
 			Author:  "CrazyMax",
 			Version: version,
 		},

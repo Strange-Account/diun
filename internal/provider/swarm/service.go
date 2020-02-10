@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"reflect"
 
-	"github.com/crazy-max/diun/internal/model"
-	"github.com/crazy-max/diun/internal/provider"
-	"github.com/crazy-max/diun/pkg/docker"
+	"github.com/Strange-Account/diun/internal/model"
+	"github.com/Strange-Account/diun/internal/provider"
+	"github.com/Strange-Account/diun/pkg/docker"
 	"github.com/docker/docker/api/types/filters"
 	"github.com/rs/zerolog/log"
 )

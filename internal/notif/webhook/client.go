@@ -7,8 +7,8 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/crazy-max/diun/internal/model"
-	"github.com/crazy-max/diun/internal/notif/notifier"
+	"github.com/Strange-Account/diun/internal/model"
+	"github.com/Strange-Account/diun/internal/notif/notifier"
 	"github.com/opencontainers/go-digest"
 )
 

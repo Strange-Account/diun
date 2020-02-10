@@ -5,8 +5,8 @@ import (
 	"log"
 	"os/exec"
 
-	"github.com/crazy-max/diun/internal/model"
-	"github.com/crazy-max/diun/internal/notif/notifier"
+	"github.com/Strange-Account/diun/internal/model"
+	"github.com/Strange-Account/diun/internal/notif/notifier"
 )
 
 // Client represents an active script notification object

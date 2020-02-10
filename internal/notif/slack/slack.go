@@ -8,8 +8,8 @@ import (
 	"text/template"
 	"time"
 
-	"github.com/crazy-max/diun/internal/model"
-	"github.com/crazy-max/diun/internal/notif/notifier"
+	"github.com/Strange-Account/diun/internal/model"
+	"github.com/Strange-Account/diun/internal/notif/notifier"
 	"github.com/nlopes/slack"
 )
 
@@ -52,9 +52,9 @@ func (c *Client) Send(entry model.NotifEntry) error {
 		Attachments: []slack.Attachment{slack.Attachment{
 			Color:         color,
 			AuthorName:    "Diun",
-			AuthorSubname: "github.com/crazy-max/diun",
-			AuthorLink:    "https://github.com/crazy-max/diun",
-			AuthorIcon:    "https://raw.githubusercontent.com/crazy-max/diun/master/.res/diun.png",
+			AuthorSubname: "github.com/Strange-Account/diun",
+			AuthorLink:    "https://github.com/Strange-Account/diun",
+			AuthorIcon:    "https://raw.githubusercontent.com/Strange-Account/diun/master/.res/diun.png",
 			Text:          textBuf.String(),
 			Footer:        fmt.Sprintf("%s © %d %s %s", c.app.Author, time.Now().Year(), c.app.Name, c.app.Version),
 			Fields: []slack.AttachmentField{

@@ -3,8 +3,8 @@ package config_test
 import (
 	"testing"
 
-	"github.com/crazy-max/diun/internal/config"
-	"github.com/crazy-max/diun/internal/model"
+	"github.com/Strange-Account/diun/internal/config"
+	"github.com/Strange-Account/diun/internal/model"
 	"github.com/stretchr/testify/assert"
 )
 
@@ -40,7 +40,7 @@ func TestLoad(t *testing.T) {
 					ID:      "diun",
 					Name:    "Diun",
 					Desc:    "Docker image update notifier",
-					URL:     "https://github.com/crazy-max/diun",
+					URL:     "https://github.com/Strange-Account/diun",
 					Author:  "CrazyMax",
 					Version: "test",
 				},

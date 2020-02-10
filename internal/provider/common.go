@@ -5,7 +5,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/crazy-max/diun/internal/model"
+	"github.com/Strange-Account/diun/internal/model"
 )
 
 // ValidateContainerImage returns a standard image through Docker labels

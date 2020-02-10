@@ -2,7 +2,7 @@ package registry
 
 import (
 	"github.com/containers/image/docker"
-	"github.com/crazy-max/diun/pkg/utl"
+	"github.com/Strange-Account/diun/pkg/utl"
 )
 
 type Tags struct {

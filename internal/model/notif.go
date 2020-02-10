@@ -1,7 +1,7 @@
 package model
 
 import (
-	"github.com/crazy-max/diun/pkg/registry"
+	"github.com/Strange-Account/diun/pkg/registry"
 )
 
 // NotifEntry represents a notification entry

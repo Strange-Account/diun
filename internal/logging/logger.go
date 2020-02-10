@@ -6,7 +6,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/crazy-max/diun/internal/model"
+	"github.com/Strange-Account/diun/internal/model"
 	"github.com/rs/zerolog"
 	"github.com/rs/zerolog/log"
 	"github.com/sirupsen/logrus"

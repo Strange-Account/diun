@@ -5,9 +5,9 @@ import (
 	"regexp"
 	"time"
 
-	"github.com/crazy-max/diun/internal/model"
-	"github.com/crazy-max/diun/pkg/registry"
-	"github.com/crazy-max/diun/pkg/utl"
+	"github.com/Strange-Account/diun/internal/model"
+	"github.com/Strange-Account/diun/pkg/registry"
+	"github.com/Strange-Account/diun/pkg/utl"
 	"github.com/imdario/mergo"
 	"github.com/rs/zerolog/log"
 )
